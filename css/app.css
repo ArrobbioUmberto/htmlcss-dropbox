@@ -6,7 +6,7 @@
 ul,li{
     list-style-type: none;
 }
-a{
+.header__list__item > a{
     text-decoration: none;
     color: black;
 }
@@ -35,6 +35,7 @@ header{
 }
 #button a{
     color: white;
+    text-decoration: none;
 }
 #button{
     background-color: #0661ff;
@@ -114,11 +115,9 @@ header{
     max-width: 1044px;
     min-height: 4174px;
     margin: 0 auto;
-    background-color: red;
 }
 .row{
     width: 100%;
-    background-color: yellow;
 }
 .col__12{
     width: calc(100% * (12/12));
@@ -127,7 +126,6 @@ header{
 }
 .col__4{
     width: calc(100% * (4/12));
-    background-color: blue;
     padding: 20px;
 }
 .choise{
@@ -157,4 +155,18 @@ header{
     padding: 10px 15px;
     color: white;
     width: 100%;
+}
+.user__program{
+    font-weight: bold;
+    font-size: 20px;
+}
+.user__price, .recap{
+    font-weight: bold;
+}
+.user__month{
+    font-weight: 100;
+    color: grey;
+}
+.fa-check{
+    color: #0661ff;
 }
