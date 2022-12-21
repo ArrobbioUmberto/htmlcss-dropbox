@@ -51,11 +51,16 @@ header{
 .container{
     max-width: 1255px;
     margin: 0 auto;
+    padding-top: 20px;
     background-color: red;
 }
 .row__title{
     width: 100%;
-    background-color: yellow;
+    padding-top: 60px;
+}
+.col__title{
+    font-weight: 700;
+    font-size: 96px;
 }
 .row__description{
     display: flex;
