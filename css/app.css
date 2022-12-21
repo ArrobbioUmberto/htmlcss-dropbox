@@ -8,4 +8,32 @@ ul,li{
 }
 a{
     text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+.header__right, .header__left{
+    flex-basis: 30%;
+}
+.header__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__list__item{
+    padding: 0 15px;
+    width: max-content;
+}
+#button a{
+    color: white;
+}
+#button{
+    background-color: #0661ff;
+    padding: 10px 15px;
+    margin: 0 15px;
 }
