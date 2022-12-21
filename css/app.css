@@ -52,7 +52,6 @@ header{
     max-width: 1255px;
     margin: 0 auto;
     padding-top: 20px;
-    background-color: red;
 }
 .row__title{
     width: 100%;
@@ -66,7 +65,7 @@ header{
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    background-color: green;
+    padding-top: 30px;
 
 }
 .col__description{
@@ -75,6 +74,24 @@ header{
     width: 410px;
     height: 479px;
     position: relative;
+}
+.text__description{
+    padding-bottom: 30px;
+    font-size: 23px;
+}
+.free__try{
+    background-color: #0661ff;
+    line-height: 40px;
+    background-color: #0661ff;
+    padding: 0px 15px;
+    width: max-content;
+}
+.free__try > a{
+    color: white;
+    font-size: 23px;
+}
+.text__description.down{
+    margin: 30px 0;
 }
 .col__description i{
     position: absolute;
