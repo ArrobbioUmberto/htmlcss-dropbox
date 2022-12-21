@@ -128,6 +128,10 @@ header{
     width: calc(100% * (4/12));
     padding: 20px;
 }
+.col__8{
+    width: calc(100% * (8/12));
+    padding: 20px;
+}
 .choise{
     display: flex;
     flex-direction: row;
@@ -154,6 +158,7 @@ label{
 .user__card{
     border: 1px solid black;
     height: 100%;
+    padding: 17px;
 }
 #regolation{
     margin-top: 18px;
@@ -181,4 +186,36 @@ label{
 }
 .fa-check{
     color: #0661ff;
+}
+.down__end, .top__end{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+}
+.top__end{
+    border: none;
+}
+.top__end > .col__12{
+    padding: 0;
+}
+.user__box__end{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 3px;
+    font-weight: 300;
+}
+.user__program__end{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.recap__end{
+    padding-bottom: 50px;
+    font-weight: bold;
 }
