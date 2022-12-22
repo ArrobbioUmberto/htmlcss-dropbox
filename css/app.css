@@ -34,7 +34,7 @@ header{
     width: max-content;
     white-space: nowrap;
 }
-a[class=button]{
+a[class^=button]{
     width: max-content;
     color: white;
     text-decoration: none;
@@ -182,22 +182,20 @@ label{
 .fa-check{
     color: #0661ff;
 }
-.user__card__bottom{
-    border: 1px solid black;
-    height: 100%;
-    padding: 17px;
-    position: relative;
-}
-.user__card__bottom > li{
-    padding: 10px 10px;
-}
 .bottom{
-    float:right;
-    position: absolute;
-    top: 28px;
-    right: 19px;
-    
+    display: inline;
+    float: right;
 }
+.recap__bottom{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.user__text__bottom{
+    margin-bottom: -50px;
+    padding-top: 60px;
+    display: flex;
+}
+
 /* SEZIONE CON FOTO E TESTO LATERALE  */
 
 .picture{
