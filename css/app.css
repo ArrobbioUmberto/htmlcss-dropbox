@@ -308,6 +308,7 @@ label{
     width:50%;
     height: 50%;
     padding: 60px;
+    fill:currentColor;
 }
 #designit{
     background-color: #a2d39b;
@@ -328,6 +329,7 @@ label{
 .team__center{
     width: 50%;
     height: fit-content;
+    fill: white;
 }
 .riga__center{
     background-color:#f5f5f5 ;
@@ -354,4 +356,44 @@ label{
 }
 .e{
     background-color: #f5f5f5;
+}
+
+
+/* SEZIONE CON LA PUBBLICITA DROPBOX BUSINESS  */
+
+
+.business{
+    background-color: #b4d0e7;
+}
+.business__button{
+    background-color: white;
+    font-weight: lighter;
+    line-height: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.business__item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 50px 0 ;
+}
+.button__title{
+    font-weight: bold;
+    font-size: 50px;
+    margin: -20px;
+}
+
+/* SEZIONE CON LA PARTE DI FAQ  */
+
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-right: 0;
+    padding: 0;
 }
