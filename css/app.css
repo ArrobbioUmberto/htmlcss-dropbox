@@ -32,15 +32,13 @@ header{
 .header__list__item{
     padding: 0 15px;
     width: max-content;
+    white-space: nowrap;
 }
 #button a{
     color: white;
     text-decoration: none;
-}
-#button{
-    background-color: #0661ff;
     padding: 10px 15px;
-    margin: 0 15px;
+    background-color: #0661ff;
 }
 
 /* section con immagine che poi dovrà sbordare  */
@@ -80,17 +78,13 @@ header{
     padding-bottom: 30px;
     font-size: 23px;
 }
-.free__try{
-    background-color: #0661ff;
+.col__description > a{
     line-height: 40px;
-    background-color: #0661ff;
-    padding: 0px 15px;
     width: max-content;
-}
-.free__try > a{
     color: white;
-    font-size: 23px;
     text-decoration: none;
+    padding: 10px 15px;
+    background-color: #0661ff;
 }
 .text__description.down{
     margin: 30px 0;
@@ -111,7 +105,7 @@ header{
 }
 
 /* zona middle con container ridotto e la maggior parte delle sezioni del sito  */
-
+/* PRIMA PARTE CON DEFAULT COLONNE E CONTAINER CON ROW  */
 .container{
     max-width: 1044px;
     min-height: 4174px;
@@ -133,6 +127,8 @@ header{
     width: calc(100% * (8/12));
     padding: 20px;
 }
+
+/* SPECIFICHE PER LA SCELTA DELLE TRE COLONNE  */
 .choise{
     display: flex;
     flex-direction: row;
@@ -167,12 +163,13 @@ label{
 .fa-solid{
     padding: 0 5px;
 }
-.button__user{
+.try{
     background-color: #0661ff;
     padding: 10px 15px;
     color: white;
     width: 100%;
     border-style: none;
+    text-decoration: none;
 }
 .user__program{
     font-weight: bold;
@@ -188,6 +185,8 @@ label{
 .fa-check{
     color: #0661ff;
 }
+
+/* SPECIFICHE PER L'ULTIMO BLOCCO  */
 .down__end, .top__end{
     border: 1px solid black;
     display: flex;
@@ -220,3 +219,5 @@ label{
     padding-bottom: 50px;
     font-weight: bold;
 }
+
+
