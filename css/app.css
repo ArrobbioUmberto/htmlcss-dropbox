@@ -255,4 +255,9 @@ label{
 
 /* SEZIONE CON IL LINK DEI CLIENTI  */
 
+.client__title{
+    font-size: 45px;
+    font-weight: bold;
+}
+
 
