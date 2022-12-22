@@ -169,6 +169,9 @@ label{
 #regolation{
     margin-top: 18px;
 }
+.riga{
+    color: grey;
+}
 .fa-solid{
     padding: 0 5px;
 }
@@ -269,25 +272,84 @@ label{
 .members{
     display: flex;
     flex-direction: row;
+    padding: 0;
 }
 .members__logo{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
+.members__center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: space-around;
+}
 .right{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     color: white;
+    padding: 0;
 }
 .left{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0;
+}
+.center{
+    padding: 0;
 }
 .team{
     width:50%;
     height: 50%;
     padding: 60px;
+}
+#designit{
+    background-color: #a2d39b;
+}
+#arizona{
+    background-color: #61082b;
+}
+#florida{
+    padding: 85px 50px;
+    background-color: #0093ce;
+
+}
+#topps{
+    background-color: #ff1c1c;
+}
+
+
+.team__center{
+    width: 50%;
+    height: fit-content;
+}
+.riga__center{
+    background-color:#f5f5f5 ;
+    text-align: left;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+    width: 95px;
+    margin-bottom: 35px;
+}
+.text__center{
+    margin-bottom: 35px;
+}
+#bycicle{
+    background-color: #d5001f;
+}
+#hearst{
+    background-color:#b4d0e7 ;
+}
+#lonely{
+    background-color: #0d2481;
+}
+#clear{
+    background-color: #ffd830;
+}
+.e{
+    background-color: #f5f5f5;
 }
