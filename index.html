@@ -10,22 +10,22 @@
 </head>
 <body>
     <header>
-        <div class="header__right">
+        <nav class="header__right">
             <ul class="header__list">
                 <li class="header__list__item"><a href=""><img src="./img/logo-small.png" alt=""></a></li>
                 <li class="header__list__item"><a href="">Perchè Dropbox</a> </li>
                 <li class="header__list__item"><a href="">Funzioni</a>  </li>
                 <li class="header__list__item"><a href="">Piani e Prezzi</a>  </li>
             </ul>
-        </div>
-        <div class="header__left">
+        </nav>
+        <nav class="header__left">
             <ul class="header__list">
                 <li class="header__list__item"><a href=""> Supporto</a></li>
                 <li class="header__list__item"><a href="">Contatta l'ufficio vendite</a> </li>
                 <li class="header__list__item"><a href="">Accedi</a> </li>
                 <li class="header__list__item" id="button" ><a href="" >Inizia</a> </li>
             </ul>
-        </div>
+        </nav>
     </header>
     <section class="top">
         <div class="container__big">
@@ -35,7 +35,7 @@
             <div class="row__description">
                 <div class="col__description">
                     <span class="text__description">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</span> 
-                    <button class="free__try"><a href="">Inizia la tua prova gratuita</a> </button>
+                    <a href="">Inizia la tua prova gratuita</a>
                     <span class="text__description down">Annulla in qualsiasi momento</span>
                     <i class="fa-solid fa-arrow-down"></i>
                 </div>
@@ -45,93 +45,101 @@
             </div>
         </div>
     </section>
-    <section class="middle">
-        <div class="container">
-            <div class="row">
-                <div class="col__12">
-                    <h2 class="title">Trova il piano business che fa per te</h2>
-                    <input type="radio" name="fatt__mens">
-                    <label for="fatt__mens">Fatturazione mensile</label>
-                    <input type="radio" name="fatt__ann">
-                    <label for="fatt__ann">Fatturazione annuale</label>
+    <main>
+        <section class="middle">
+            <div class="container">
+    
+                <!-- PARTE PRIMARIA DELLA MIDDLE CON LE TRE COLONNE E LE OFFERTE  -->
+                <div class="row">
+                    <div class="col__12">
+                        <h2 class="title">Trova il piano business che fa per te</h2>
+                        <input type="radio" name="fatt__mens">
+                        <label for="fatt__mens">Fatturazione mensile</label>
+                        <input type="radio" name="fatt__ann">
+                        <label for="fatt__ann">Fatturazione annuale</label>
+                    </div>
                 </div>
-            </div>
-            <div class="row choise">
-                <div class="col__4">
-                    <h3 class="user__box"><i class="fa-solid fa-user"></i> Singolo</h3>
-                    <ul class="user__card">
-                        <li class="user__program">Professional</li>
-                        <li class="user__price"> &euro;12.00 </li>
-                        <li class="user__month">/mese</li>
-                        <li class="user__text"><i class="fa-solid fa-user"></i> 1 utente</li>
-                        <li class="user__text"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
-                        <li class="user__text" id="regolation"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        <li><button class="button__user">Prova gratis per 30 giorni</button></li>
-                        <li>oppure <a href="">acquista ora</a></li>
-                        <li class="riga">________</li>
-                        <li class="recap">Punti salienti del piano</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-                    </ul>
-                </div>
-                <div class="col__4">
-                    <h3 class="user__box"><i class="fa-solid fa-users"></i> Team</h3>
-                    <ul class="user__card">
-                        <li class="user__program">Advanced</li>
-                        <li class="user__price"> &euro;18.00 </li>
-                        <li class="user__month">/utente/mese</li>
-                        <li class="user__text"><i class="fa-solid fa-users"></i> 3 o più utenti</li>
-                        <li class="user__text"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
-                        <li class="user__text"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                        <li><button class="button__user">Prova gratis per 30 giorni</button></li>
-                        <li>oppure <a href="">acquista ora</a></li>
-                        <li class="riga">________</li>
-                        <li class="recap">Punti salienti del piano</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Rispramio del 50% rispetto alle iscrizioni singole</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
-                    </ul>
-                </div>
-                <div class="col__4">
-                    <h3 class="user__box"><i class="fa-solid fa-building"></i> Azienda</h3>
-                    <ul class="user__card">
-                        <li class="user__program">Enterprise</li>
-                        <li class="user__price"> Contattaci </li>
-                        <li class="user__month"> - </li>
-                        <li class="user__text"><i class="fa-solid fa-user"></i> 10 o più utenti</li>
-                        <li class="user__text"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
-                        <li class="user__text"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                        <li><button class="button__user">Contattaci</button></li>
-                        <li>oppure <a href="">acquista ora</a></li>
-                        <li class="riga">________</li>
-                        <li class="recap">Punti salienti del piano</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
-                        <li class="user__text"><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row top__end">
-                <div class="col__12">
-                    <h3 class="user__box__end"><i class="fa-solid fa-building"></i> Azienda</h3>
-                </div>
-                <div class="row down__end">
-                    <div class="col__8">
-                        <ul>
-                            <li class="user__program__end">Enterprise</li>
-                            <li class="recap__end">Contatta l'ufficio vendite per i prezzi</li>
-                            <li class="user__text__end"> Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qulasiasi scala</li>
+                <div class="row choise">
+                    <div class="col__4">
+                        <h3 class="user__box"><i class="fa-solid fa-user"></i> Singolo</h3>
+                        <ul class="user__card">
+                            <li class="user__program">Professional</li>
+                            <li class="user__price"> &euro;12.00 </li>
+                            <li class="user__month">/mese</li>
+                            <li class="user__text"><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li class="user__text"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li class="user__text" id="regolation"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            <li><a href="" class="try">Prova gratis per 30 giorni</a> </li>
+                            <li>oppure <a href="">acquista ora</a></li>
+                            <li class="riga">________</li>
+                            <li class="recap">Punti salienti del piano</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                        </ul>
                     </div>
                     <div class="col__4">
-                        <li><button class="button__user">Contatta l'ufficio vendite</button></li>
+                        <h3 class="user__box"><i class="fa-solid fa-users"></i> Team</h3>
+                        <ul class="user__card">
+                            <li class="user__program">Advanced</li>
+                            <li class="user__price"> &euro;18.00 </li>
+                            <li class="user__month">/utente/mese</li>
+                            <li class="user__text"><i class="fa-solid fa-users"></i> 3 o più utenti</li>
+                            <li class="user__text"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li class="user__text"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            <li><a href=""class="try"> Prova gratis per 30 giorni</a></li>
+                            <li>oppure <a href="" >acquista ora</a></li>
+                            <li class="riga">________</li>
+                            <li class="recap">Punti salienti del piano</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Rispramio del 50% rispetto alle iscrizioni singole</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                    <div class="col__4">
+                        <h3 class="user__box"><i class="fa-solid fa-building"></i> Azienda</h3>
+                        <ul class="user__card">
+                            <li class="user__program">Enterprise</li>
+                            <li class="user__price"> Contattaci </li>
+                            <li class="user__month"> - </li>
+                            <li class="user__text"><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+                            <li class="user__text"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+                            <li class="user__text"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                            <li><a href="" class="try">Contattaci</a></li>
+                            <li>oppure <a href="">acquista ora</a></li>
+                            <li class="riga">________</li>
+                            <li class="recap">Punti salienti del piano</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
+                            <li class="user__text"><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
+                        </ul>
                     </div>
                 </div>
-               
+    
+                <!-- FINE PARTE DELLE TRE COLONNE CON LE OFFERTE  -->
+    
+                <!-- parte finale con offerta Enterprise per team  -->
+                <div class="row top__end">
+                    <div class="col__12">
+                        <h3 class="user__box__end"><i class="fa-solid fa-building"></i> Azienda</h3>
+                    </div>
+                    <div class="row down__end">
+                        <div class="col__8">
+                            <ul>
+                                <li class="user__program__end">Enterprise</li>
+                                <li class="recap__end">Contatta l'ufficio vendite per i prezzi</li>
+                                <li class="user__text__end"> Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qulasiasi scala</li>
+                        </div>
+                        <div class="col__4">
+                            <li><button class="button__user">Contatta l'ufficio vendite</button></li>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+   
     
 </body>
 </html>
