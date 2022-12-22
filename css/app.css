@@ -109,7 +109,6 @@ a[class=button]{
 .col__12{
     width: calc(100% * (12/12));
     padding: 20px;
-    margin-top: 50px;
 }
 .col__4{
     width: calc(100% * (4/12));
@@ -173,9 +172,22 @@ label{
 .fa-check{
     color: #0661ff;
 }
-
-.pino{
-    background-color: red;
+.user__card__bottom{
+    border: 1px solid black;
+    height: 100%;
+    padding: 17px;
+    position: relative;
 }
+.user__card__bottom > li{
+    padding: 10px 10px;
+}
+.bottom{
+    float:right;
+    position: absolute;
+    top: 28px;
+    right: 19px;
+    
+}
+
 
 
