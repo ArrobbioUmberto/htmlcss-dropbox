@@ -278,6 +278,7 @@ label{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin: 0;
 }
 .members__center{
     display: flex;
@@ -285,6 +286,7 @@ label{
     flex-wrap: nowrap;
     padding: 20px;
     justify-content: space-around;
+    margin: 0;
 }
 .right{
     display: flex;
