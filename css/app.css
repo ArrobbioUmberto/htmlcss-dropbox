@@ -233,5 +233,18 @@ label{
 }
 
 
+/* SEZIONE CON OPERAZIONI CHE PUOI EFFETTUARE */
+
+.operation{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pino{
+    background-color: red;
+    padding: 20px;
+    border: 1px solid black;
+}
 
 
