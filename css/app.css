@@ -34,7 +34,8 @@ header{
     width: max-content;
     white-space: nowrap;
 }
-#button a{
+a[class=button]{
+    width: max-content;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -78,14 +79,6 @@ header{
     padding-bottom: 30px;
     font-size: 23px;
 }
-.col__description > a{
-    line-height: 40px;
-    width: max-content;
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    background-color: #0661ff;
-}
 .text__description.down{
     margin: 30px 0;
 }
@@ -115,16 +108,16 @@ header{
     width: 100%;
 }
 .col__12{
-    width: calc(100% * (12/12));
+    flex-basis: calc(100% * (12/12));
     padding: 20px;
     margin-top: 50px;
 }
 .col__4{
-    width: calc(100% * (4/12));
+    flex-basis: calc(100% * (4/12));
     padding: 20px;
 }
 .col__8{
-    width: calc(100% * (8/12));
+    flex-basis: calc(100% * (8/12));
     padding: 20px;
 }
 
@@ -132,6 +125,7 @@ header{
 .choise{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .title{
     padding-bottom: 60px;
@@ -166,14 +160,6 @@ label{
 .fa-solid{
     padding: 0 5px;
 }
-.try{
-    background-color: #0661ff;
-    padding: 10px 15px;
-    color: white;
-    width: 100%;
-    border-style: none;
-    text-decoration: none;
-}
 .user__program{
     font-weight: bold;
     font-size: 20px;
@@ -189,38 +175,8 @@ label{
     color: #0661ff;
 }
 
-/* SPECIFICHE PER L'ULTIMO BLOCCO  */
-.down__end, .top__end{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px;
-    align-items: flex-start;
-}
-.top__end{
-    border: none;
-}
-.top__end > .col__12{
-    padding: 0;
-}
-.user__box__end{
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-    align-items: center;
-    font-size: 15px;
-    padding: 10px 3px;
-    font-weight: 300;
-}
-.user__program__end{
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-.recap__end{
-    padding-bottom: 50px;
-    font-weight: bold;
+.pino{
+    background-color: red;
 }
 
 
