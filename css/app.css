@@ -234,15 +234,9 @@ label{
 /* SEZIONE CON OPERAZIONI CHE PUOI EFFETTUARE */
 
 .operation__menu{
-    background-color: green;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.pino{
-    background-color: red;
-    padding: 20px;
-    border: 1px solid black;
 }
 .title__operation{
     font-size: 48px;
@@ -251,5 +245,12 @@ label{
 .operation__item{
     height: 100%;
 }
-
+.operation__title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.operation__text{
+    font-size: 16px;
+    padding: 25px 0;
+}
 
