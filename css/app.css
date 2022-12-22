@@ -157,6 +157,9 @@ label{
     height: 100%;
     padding: 17px;
 }
+.user__text{
+    display: flex;
+}
 #regolation{
     margin-top: 18px;
 }
