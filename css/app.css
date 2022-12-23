@@ -189,6 +189,16 @@ label{
 .fa-check{
     color: #0661ff;
 }
+.user__box__bottom{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 3px;
+    font-weight: 300;
+    flex-basis:calc(100% * (12/12)) ;
+}
 .bottom{
     display: inline;
     float: right;
@@ -304,11 +314,21 @@ label{
 .center{
     padding: 0;
 }
-.team{
-    width:50%;
+.col__12.right > div, .col__12.left > div{
+    width: 50%;
     height: 50%;
-    padding: 60px;
-    fill:currentColor;
+}
+.members__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    width: 47%;
+    height: 41%;
+}
+.florida__height{
+    height: 17%;
 }
 #designit{
     background-color: #a2d39b;
@@ -317,7 +337,6 @@ label{
     background-color: #61082b;
 }
 #florida{
-    padding: 85px 50px;
     background-color: #0093ce;
 
 }
@@ -354,7 +373,7 @@ label{
 #clear{
     background-color: #ffd830;
 }
-.e{
+.center__background{
     background-color: #f5f5f5;
 }
 
@@ -395,5 +414,8 @@ label{
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding-right: 0;
-    padding: 0;
+    padding: 30px 0;
+}
+.fa-angle-down{
+    margin-right: 20px;
 }
