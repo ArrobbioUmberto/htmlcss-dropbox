@@ -129,8 +129,6 @@ img{
 .col__2{
     flex-basis: calc(100% * (2/12));
     padding: 20px;
-    background-color: yellow;
-    border: 1px solid black ;
 }
 
 /* SPECIFICHE PER LA SCELTA DELLE quattro COLONNE  */
@@ -430,8 +428,14 @@ label{
 .dropbox__menu{
     background-color: black;
 }
-.dropbox__list__item{
+.dropbox__list{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.dropbox__list__item > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+
 }
