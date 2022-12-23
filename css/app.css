@@ -123,10 +123,6 @@ img{
     padding: 20px;
 }
 .col__2{
-    width: calc(100% * (2/12));
-    padding: 20px;
-}
-.col__2{
     flex-basis: calc(100% * (2/12));
     padding: 20px;
 }
@@ -328,6 +324,7 @@ label{
     align-items: center;
 }
 .team{
+    filter:invert(1);
     width: 47%;
     height: 41%;
 }
@@ -432,10 +429,44 @@ label{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 80px 0;
+}
+.menu__col{
+    padding: 0;
+}
+.dropbox__title{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.dropbox__list__item{
+    padding: 10px 0;
 }
 .dropbox__list__item > a{
     text-decoration: none;
     color: white;
-    padding: 10px 0;
-
+    font-size: 15px;
+    font-weight: lighter;
+}
+.dropbox__line__menu{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+.dropbox__language{
+    line-height: 80px;
+    padding: 0;
+}
+#language{
+    background-color: black;
+    color: white;
+    border: none;
+    appearance: none;
+}
+.fa-earth-americas{
+    color: white;
+}
+.fa-caret-up{
+    color: white;
 }
