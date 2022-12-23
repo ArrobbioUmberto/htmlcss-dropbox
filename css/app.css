@@ -52,7 +52,7 @@ a[class^=button]{
     row-gap: 32px;
 }
 .container__big{
-    max-width: 1255px;
+    max-width: 1262px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -125,6 +125,12 @@ img{
 .col__2{
     width: calc(100% * (2/12));
     padding: 20px;
+}
+.col__2{
+    flex-basis: calc(100% * (2/12));
+    padding: 20px;
+    background-color: yellow;
+    border: 1px solid black ;
 }
 
 /* SPECIFICHE PER LA SCELTA DELLE quattro COLONNE  */
@@ -418,4 +424,14 @@ label{
 }
 .fa-angle-down{
     margin-right: 20px;
+}
+
+/* sezione del footer  */
+.dropbox__menu{
+    background-color: black;
+}
+.dropbox__list__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
