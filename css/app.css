@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 94px;
+    line-height: 90px;
 }
 .header__right, .header__left{
     flex-basis: 30%;
@@ -59,6 +59,7 @@ a[class^=button]{
 .row__title{
     width: 100%;
     padding-top: 60px;
+    margin: -20px;
 }
 .col__title{
     font-weight: 700;
@@ -75,7 +76,7 @@ a[class^=button]{
 .col__description{
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 40%;
     justify-content: space-between;
 }
 .text__description{
@@ -87,8 +88,9 @@ a[class^=button]{
 }
 .col__img{
     display: flex;
-    flex-basis: 70%;
-    margin-bottom: -100px;
+    flex-basis: 100%;
+    margin: -110px -20px;
+    margin-top: 0;
 }
 img{
     width: 100%;
@@ -96,8 +98,9 @@ img{
 
 }
 .overflow{
-    margin-bottom: 100px;
-    overflow: visible;
+    margin-bottom: 110px;
+    overflow-y: visible;
+    overflow-clip-margin: unset;
 }
 
 /* zona middle con container ridotto e la maggior parte delle sezioni del sito  */
@@ -284,56 +287,27 @@ label{
 .members{
     display: flex;
     flex-direction: row;
-    padding: 0;
-}
-.members__logo{
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     margin: 0;
 }
-.members__center{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 20px;
-    justify-content: space-around;
-    margin: 0;
-}
-.right{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: white;
-    padding: 0;
-}
-.left{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-}
-.center{
-    padding: 0;
-}
-.col__12.right > div, .col__12.left > div{
-    width: 50%;
-    height: 50%;
-}
-.members__img{
+.blocchi{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 100%;
+    flex-basis: 50%;
+    aspect-ratio: 4/4;
+    padding: -20px;
+}
+.right, .left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
 }
 .team{
+    width:50%;
+    height: 50%;
     filter:invert(1);
-    width: 47%;
-    height: 41%;
-}
-.florida__height{
-    height: 17%;
 }
 #designit{
     background-color: #a2d39b;
@@ -343,27 +317,31 @@ label{
 }
 #florida{
     background-color: #0093ce;
-
+}
+.florida__height{
+    height: 10%;
 }
 #topps{
     background-color: #ff1c1c;
 }
 
-
+.center, .riga__center{
+    background-color: #f5f5f5;
+}
 .team__center{
     width: 50%;
     height: fit-content;
-    fill: white;
 }
 .riga__center{
-    background-color:#f5f5f5 ;
     text-align: left;
     padding: 20px 0;
     border-bottom: 1px solid grey;
     width: 95px;
-    margin-bottom: 35px;
+    margin: 45px 0;
 }
 .text__center{
+    font-weight: lighter;
+    font-size: 20px;
     margin-bottom: 35px;
 }
 #bycicle{
