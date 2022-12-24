@@ -87,8 +87,7 @@ a[class^=button]{
 .col__img{
     display: flex;
     flex-basis: 70%;
-    margin: -110px -20px;
-    margin-top: 0;
+    margin-bottom: -110px;
     aspect-ratio: 4/3;
 }
 img{
